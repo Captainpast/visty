@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/visty.css">
+    <link rel="icon" href="/d_icon.png" type="image/png">
+    <script src="/visty.js"></script>
+    <title>Visty</title>
+  </head>
+  <script>
+
+  </script>
+  <body>
+    <ul id="headerbar" class="navbar stiky">
+      <li class="title"><h1>Visty</h1></li>
+      <li class="res"><a href="#">1. link</a></li>
+      <li class="res"><a href="#">2. link</a></li>
+      <button type="button" class="right res">nav button</button>
+      <li class="right res"><a href="#">right link</a></li>
+    </ul>
+    <div style="height: 100px;"></div>
+    <div class="container">
+      <ul class="navbar">
+        <li><p>Objects</p></li>
+      </ul>
+      <div class="unit">
+        <h1>Buttons:</h1>
+        <button type="button" class="light">light</button>
+        <button type="button" class="gray">gray</button>
+        <button type="button" class="black">black</button>
+        <button type="button" class="red">red</button>
+        <button type="button" class="green">green</button>
+        <h1>Input:</h1>
+        <form class="light"><span>light input</span><input type="password"><input type="submit" class="green" value="green"></form>
+        <br>
+        <form class="gray"><span>gray input</span><input type="text"><input type="submit" class="black" value="black"></form>
+        <br>
+        <form class="black"><span>black input</span><input type="text"><input type="submit" class="gray" value="gray"></form>
+        <br>
+        <form class="red"><span>red input</span><input type="text"><input type="submit" class="light" value="light"></form>
+        <br>
+        <form class="green"><span>green input</span><input type="text"><input type="submit" class="red" value="red"></form>
+        <h1>Textarea:</h1>
+        <textarea rows="5"></textarea>
+        <h1>Table:</h1>
+        <table class="table table-bordered" id="tph">
+          <tr>
+            <th scope="col">Zeit</th>
+            <th scope="col">Montag</th>
+            <th scope="col">Dinstag</th>
+            <th scope="col">Mittwoch</th>
+            <th scope="col">Donnerstag</th>
+            <th scope="col">Freitag</th>
+          </tr>
+          <tr><th>1. 8:00-8:45</th><td>Englisch</td><td>BK</td><td>Wochenstart</td><td>IA</td><td>Mathe</td></tr><tr><th>2. 8:45-9:30</th><td>NWT</td><td>BK</td><td>IA</td><td>IA</td><td>Mathe</td></tr><tr><td colspan='6'>20min Pause</td><tr><tr><th>3. 9:50-10:35</th><td>NWT</td><td>EGG</td><td>Deutsch</td><td>Technik</td><td>IA</td></tr><tr><th>4. 10:35-11:20</th><td>NWT</td><td>EGG</td><td>Deutsch</td><td>Technik</td><td>IA</td></tr><tr><td colspan='6'>10min Pause</td><tr><tr><th>5. 11:30-12:15</th><td>Reli</td><td>IA</td><td>EGG</td><td>Technik</td><td>NWA</td></tr><tr><th>6. 12:15-13:00</th><td>Reli</td><td>IA</td><td>NWA</td><td>NWA</td><td>NWA</td></tr><tr><th>7. 13:00-13:45</th><td>---</td><td>---</td><td>Mittagspause</td><td>---</td><td>---</td></tr><tr><th>8. 13:45-14:30</th><td>LdE</td><td>Englisch</td><td>LGR</td><td>Sport</td><td></td></tr><tr><th>9. 14:30-15:15</th><td>LdE</td><td>Englisch</td><td>IA</td><td>Sport</td><td></td></tr>
+        </table>
+        <h1>Alert:</h1>
+        <div class="alert light">a light alert</div>
+        <div class="alert gray">a gray alert</div>
+        <div class="alert black">a black alert</div>
+        <div class="alert red">a red alert</div>
+        <div class="alert green">a green alert</div>
+        <h1>Loader:</h1>
+        <div class="loader"></div>
+        <div class="loader light"></div>
+        <div class="loader gray"></div>
+        <div class="loader black"></div>
+        <div class="loader red"></div>
+        <div class="loader green"></div>
+      </div>
+    </div>
+  </body>
+</html>
