@@ -1,0 +1,329 @@
+/*-visty is a ViktoriaInformatin style library by Captainpast-*/
+html {
+  background-color: #000000;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+p,h1,h2,h3,h4,h5,a,li,button,span,th,td,th,div {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+button,input[type="submit"] {
+  background-color: #ffffff;
+  border: none;
+  color: #ffffff;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.light,input[type="submit"].light {background-color: #919191;}
+button.gray,input[type="submit"].gray {background-color: #4f4f4f;}
+button.black,input[type="submit"].black {background-color: #000000;}
+button.red,input[type="submit"].red {background-color: #970000;}
+button.green,input[type="submit"].green {background-color: #309521;}
+
+form span {
+  border: none;
+  color: #ffffff;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 5px;
+}
+
+div.alert{
+  background-color: #ffffff;
+  border: none;
+  color: #ffffff;
+  width: 95%;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: default;
+  border-radius: 5px;
+  opacity: 0.6;
+}
+
+div.alert.light {background-color: #919191;}
+div.alert.gray {background-color: #4f4f4f;}
+div.alert.black {background-color: #000000;}
+div.alert.red {background-color: #970000;}
+div.alert.green {background-color: #309521;}
+
+form {
+  border: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 5px;
+}
+
+form.light {background-color: #919191;}
+form.gray {background-color: #4f4f4f;}
+form.black {background-color: #000000;}
+form.red {background-color: #970000;}
+form.green {background-color: #309521;}
+
+input[type="text"],input[type="password"] {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 5px;
+}
+
+textarea {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  width: 95%;
+  resize: vertical;
+}
+
+div.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  animation: spin 1s cubic-bezier(.8,.32,.47,.67) infinite;
+}
+
+div.loader.light {border-top-color: #919191;}
+div.loader.gray {border-top-color: #4f4f4f;}
+div.loader.black {border-top-color: #000000;}
+div.loader.red {border-top-color: #970000;}
+div.loader.green {border-top-color: #309521;}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  width: 100%;
+}
+
+ul.stiky {
+  position: fixed;
+  top: 0;
+}
+
+ul.navbar li {
+  float: left;
+}
+ul.navbar .right {
+  float: right;
+}
+
+ul.navbar li p {
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  margin: 0;
+  font-size: 20px;
+}
+
+ul.navbar li h1 {
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul.navbar li a {
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul.navbar button {
+  background-color: #666666;
+  border-style: solid;
+  border-color: #333333;
+  border-width: 2px;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0;
+  float: left;
+}
+
+ul.navbar button:hover {background-color: #000000;}
+
+ul.navbar li a:hover {color: #cccccc;}
+
+div.container {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+div.unit {
+  padding: 64px 32px;
+  background-color: #666666;
+  border-radius: 0px 0px 7px 7px;
+}
+
+ul.navbar button#hbb {
+  display: none;
+  font-size: 40px;
+  padding: 0;
+  width: 53px;
+  height: 53px;
+}
+
+table, th, td {
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 4px 2px;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px 15px;
+}
+
+th {
+  text-align: left;
+  padding: 10px 15px;
+}
+
+@media screen and (max-width: 1400px) {
+  div.container {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  table, th, td {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  div.container {
+    width: 100%;
+    margin: 0;
+  }
+  ul.navbar .res{
+    float: none;
+    display: none;
+  }
+  ul.navbar li.res a {
+    width: 100%;
+  }
+  ul.navbar button.res {
+    width: 100%;
+  }
+  ul.navbar li.title {
+    float: none;
+  }
+  ul.navbar button#hbb {
+    display: block;
+  }
+  table, th, td {
+    font-size: 15px;
+  }
+
+  th, td {
+    padding: 5px 3px;
+  }
+
+  th {
+    text-align: left;
+    padding: 5px 3px;
+  }
+}
+@media screen and (max-width: 500px) {
+  table, th, td {
+    font-size: 11px;
+  }
+
+  th, td {
+    padding: 5px 3px;
+  }
+
+
+  th {
+    text-align: left;
+    padding: 5px 3px;
+  }
+  div.unit {
+    padding: 32px 16px;
+    background-color: #666666;
+    border-radius: 0px 0px 7px 7px;
+  }
+  button,input[type="submit"] {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  form span {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  input[type="text"],input[type="password"] {
+    padding: 7px 13px;
+    font-size: 15px;
+    margin: 2px 1px;
+  }
+  textarea {
+    padding: 7px 13px;
+    font-size: 15px;
+    margin: 2px 1px;
+  }
+  form {
+    padding: 7px 13px;
+    margin: 2px 1px;
+  }
+}
