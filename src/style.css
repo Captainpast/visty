@@ -259,6 +259,9 @@ th {
     float: none;
     display: none;
   }
+  ul.navbar.show-res .res{
+    display: block;
+  }
   ul.navbar li.res a {
     width: 100%;
   }
