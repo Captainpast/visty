@@ -1,4 +1,4 @@
 # visty
 a CSS lib
 
-view at: https://captainpast.github.io/visty/
+view at: https://captainpast.gitlab.io/visty/
